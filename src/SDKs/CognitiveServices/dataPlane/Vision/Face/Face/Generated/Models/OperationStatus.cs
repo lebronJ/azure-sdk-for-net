@@ -33,16 +33,16 @@ namespace Microsoft.Azure.CognitiveServices.Vision.Face.Models
         /// <param name="status">Operation status: notstarted, running,
         /// succeeded, failed. If the operation is requested and waiting to
         /// perform, the status is notstarted. If the operation is ongoing in
-        /// backend, the status is running. Status succeed means the operation
-        /// is completed successfully, specifically for snapshot taking
-        /// operation, it illustrates the snapshot is well taken and ready to
-        /// apply, and for snapshot applying operation, it presents the target
-        /// object has finished creating by the snapshot and ready to be used.
-        /// Status failed is often caused by editing the source object while
-        /// taking the snapshot or editing the target object while applying the
-        /// snapshot before completion, see the field "message" to check the
-        /// failure reason. Possible values include: 'notstarted', 'running',
-        /// 'succeeded', 'failed'</param>
+        /// backend, the status is running. Status succeeded means the
+        /// operation is completed successfully, specifically for snapshot
+        /// taking operation, it illustrates the snapshot is well taken and
+        /// ready to apply, and for snapshot applying operation, it presents
+        /// the target object has finished creating by the snapshot and ready
+        /// to be used. Status failed is often caused by editing the source
+        /// object while taking the snapshot or editing the target object while
+        /// applying the snapshot before completion, see the field "message" to
+        /// check the failure reason. Possible values include: 'notstarted',
+        /// 'running', 'succeeded', 'failed'</param>
         /// <param name="createdTime">A combined UTC date and time string that
         /// describes the time when the operation (take or apply a snapshot) is
         /// requested. E.g. 2018-12-25T11:41:02.2331413Z.</param>
@@ -77,10 +77,10 @@ namespace Microsoft.Azure.CognitiveServices.Vision.Face.Models
         /// Gets or sets operation status: notstarted, running, succeeded,
         /// failed. If the operation is requested and waiting to perform, the
         /// status is notstarted. If the operation is ongoing in backend, the
-        /// status is running. Status succeed means the operation is completed
-        /// successfully, specifically for snapshot taking operation, it
-        /// illustrates the snapshot is well taken and ready to apply, and for
-        /// snapshot applying operation, it presents the target object has
+        /// status is running. Status succeeded means the operation is
+        /// completed successfully, specifically for snapshot taking operation,
+        /// it illustrates the snapshot is well taken and ready to apply, and
+        /// for snapshot applying operation, it presents the target object has
         /// finished creating by the snapshot and ready to be used. Status
         /// failed is often caused by editing the source object while taking
         /// the snapshot or editing the target object while applying the
